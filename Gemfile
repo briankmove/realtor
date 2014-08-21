@@ -40,3 +40,8 @@ gem 'spring',        group: :development
 
 ##########-------------###########
 gem 'haml-rails'
+
+group :development, :test do
+  gem 'rspec-rails'
+end
+
